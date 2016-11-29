@@ -1,35 +1,72 @@
-general_assembly_logo.png
+<DOCTYPE html>
+<html>
 
-General Assembly Account Creation
+<head>
+  <title>General Assembly Account Creation</title>
 
-Welcome to the General Assembly. General Assembly is a global
+</head>
+
+
+<body>
+  <img src = "general_assembly_logo.png"/>
+
+<h1>General Assembly Account Creation</h1>
+
+<p>Welcome to the General Assembly. General Assembly is a global
 institution training people all over the world in today's top
-technologies.
+technologies.</p>
 
-Please fill out the information below to create your General Assembly
+<p>Please fill out the information below to create your General Assembly
 account. Let us know what city you're in and what course
 you're taking. This list is for all students. Please tell us what
 city you're in and whether you're taking the Immersive User Experience (UX)
-course or the Immersive Web Development course. 
+course or the Immersive Web Development course.</p>
 
+<form action="success.html" method="get">
+
+<p>
 City:
-  Hong Kong
-  London
-  Los Angeles
-  New York
-  Portland
-  San Francisco
-  Seattle
-  Singapore
+  <select>
+    <option value="">Hong Kong</option>
+    <option value="">London</option>
+    <option value="">Los Angeles</option>
+    <option value="">New York</option>
+    <option value="">Portland</option>
+    <option value="">San Francisco</option>
+    <option value="">Seattle</option>
+    <option value="">Singapore</option>
+    </select>
+</p>
 
+<p>
 Course:
-  (0) UX
-  ( ) Web Dev
+  <input type="radio" name="class"> UX
+  <input type="radio" name="class" checked> Web Dev
+</p>
 
-Name:     _________
-Email:    _________
-Password: *********
+<p>
+Name:
+  <input type="text" name = ""/>
+</p>
 
-[] Yes, subscribe me to the General Assembly student newsletter
+<p>
+Email:
+  <input type="email"/>
+</p>
 
-[Subscribe]
+<p>
+Password:
+  <input type="password"/>
+</p>
+
+<p>
+ <input type="checkbox" checked> Yes, subscribe me to the General Assembly student newsletter
+</p>
+
+<p>
+  <input type="submit" value="Subscribe">
+</p>
+
+</body>
+
+</html>
